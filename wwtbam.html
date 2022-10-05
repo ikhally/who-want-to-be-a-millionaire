@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWTBAM</title>
+    <link rel="stylesheet" href="wwtbam.css">
+    <link rel="shortcut icon" href="pics/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div id="icon">
+    <img src="pics/50-50.png" alt="" id="img" onclick="fiftyFifty()">
+    <img src="pics/ask-the-audience.png" alt="" id="imgtwo">
+    <img src="pics/phone-a-friend.png" alt="" id="imgthree">
+</div>
+    <!-- <h1 id="title">WWTBAM</h1> -->
+    <!-- QUIZ-CONTAINER -->
+    <div id="quiz-container">
+        <div id="a"></div>
+        <!-- question container -->
+        <div class="questions">
+            <h2 id="question"></h2>
+            <ul type="A">
+                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option1"onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option2"onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option3"onclick="calcScore(this)"></span></li>
+            </ul>
+            
+            <h4 id="stat"></h4> 
+        </div>
+        <div class="buttons">
+            <button type="button" class="next"><img src="pics/switch2.png" alt="" height="50px"></button>
+        </div>
+    </div>
+    <!-- scoreboard section -->
+    <div id="scoreboard">
+        <img src="" alt="">
+        <!-- <h2 id="score-title">Your score</h2> -->
+        <h2 id="score"></h2>
+        <!-- <button type="button" id="score-btn" onclick="backToQuiz()" >Bact toQuiz</button> -->
+        <!-- <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button> -->
+    </div>
+    
+    
+    
+    <!-- answer section -->
+    <!-- <div id="answerBank">    
+        <h2>Answers :</h2>
+        <ol type="1" id="answers">
+
+        </ol>
+        <button type="button" id="score-btn" onclick="backToQuiz()" >Bact to Quiz</button>
+    </div>  -->
+
+
+    <script src="wwtbam.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    /* background: linear-gradient(115deg, rgba(101,151,209,0.8), rgba(202,102,211,0.5)); */
+    background-image: url(pics/game-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+} 
+.questions{
+    margin: 0.5rem auto;
+    width: 90vw;
+    padding: 2rem; 
+    /* background: rgba(0, 255, 221, 0.45); */
+    cursor: default;
+    border-radius: 20px;
+    color: white;
+}
+#question{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    background-color: blue;
+    border: 5px solid white;
+    border-style: double;
+    width: 100%;
+}
+.option{
+    font-size: 1.2rem;
+    border: solid 5px white;
+    border-style: double;
+    width: 15rem;
+    background: blue;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+  
+}
+.option:hover{
+    color: yellow;
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(1, 73,73);
+    
+  
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: rgba(6, 17, 168);
+}
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: rgba(93,53,156,0.98);
+    margin-left: 40%;
+    margin-top: -120px;
+    
+}
+#title{
+    color: white;
+    font-family: sans-serif;
+
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+}
+
+@media all and (max-width:500px){
+    body{
+        width: 100%;
+        background-image: url(pics/game-background.jpg);
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;
+        height: 100vh;
+    }
+
+}
+#a{
+    border: 1.5px solid white;
+    background: yellow;
+    height: 40px;
+    width: 150px;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: auto;   
+    padding: 5px; 
+}
+#scoreboard{
+    color: white;
+}
+#img{
+    margin-left: 30%;
+    margin-top: 30px;
+}
+#score{
+    margin-left: 30%;
+    margin-top: 120px;
+    color: white;
+}
